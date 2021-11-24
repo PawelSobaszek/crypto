@@ -12,22 +12,14 @@ protocol CurrencyListingCoordinatorDelegate {
     func openCurrencyDetails(id: Int)
 }
 
-final class CurrencyListingCoordinator: BaseCoordinator, CurrencyListingCoordinatorDelegate {
-    override func start() {
-        let currencyListingViewController = CurrencyListingViewController()
-        currencyListingViewController.coordinator = self
-        let currencyListingViewModel = CurrencyListingViewModel(manager: CurrencyListingManager())
-        currencyListingViewController.viewModel = currencyListingViewModel
-        currencyListingViewModel.delegate = currencyListingViewController
-        
-        navigationController.setViewControllers([currencyListingViewController], animated: false)
-    }
-}
-
-extension CurrencyListingCoordinator {
+final class CurrencyListingCoordinator: Coordinator, CurrencyListingCoordinatorDelegate {
     func openCurrencyDetails(id: Int) {
-        let coordinator = CurrencyDetailsCoordinator(id: id)
-        coordinator.navigationController = navigationController
-        start(coordinator: coordinator)
+        let viewController = CurrencyDetailsViewController()
+        let viewModel = CurrencyDetailsViewModel(id: id)
+        viewController.viewModel = viewModel
+        
+        let coordinator = CurrencyListingCoordinator(viewController: viewController, supercoordinator: self)
+        
+        start(coordinator: coordinator, presentationStyle: .push, animated: true)
     }
 }

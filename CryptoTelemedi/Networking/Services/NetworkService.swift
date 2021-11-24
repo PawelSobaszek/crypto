@@ -60,11 +60,11 @@ final class NetworkService: NetworkServiceProtocol {
             }
             
             guard let response = response as? HTTPURLResponse, 200..<300 ~= response.statusCode else {
-                return completion(.failure(NSError()))
+                return completion(.failure(CustomError.invalidEndpoint))
             }
             
             guard let data = data else {
-                return completion(.failure(NSError()))
+                return completion(.failure(CustomError.invalidEndpoint))
             }
             
             do {

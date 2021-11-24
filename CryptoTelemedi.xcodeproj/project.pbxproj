@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE15C428274B800D001BEC42 /* CurrencyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C426274B800D001BEC42 /* CurrencyDetailsViewController.swift */; };
+		CE15C429274B800D001BEC42 /* CurrencyDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE15C427274B800D001BEC42 /* CurrencyDetailsViewController.xib */; };
 		CE1AFBF427493575006B90B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFBF327493575006B90B4 /* AppDelegate.swift */; };
 		CE1AFBF627493575006B90B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFBF527493575006B90B4 /* SceneDelegate.swift */; };
-		CE1AFBF827493575006B90B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFBF727493575006B90B4 /* ViewController.swift */; };
-		CE1AFBFB27493575006B90B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFBF927493575006B90B4 /* Main.storyboard */; };
 		CE1AFBFD27493576006B90B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFBFC27493576006B90B4 /* Assets.xcassets */; };
 		CE1AFC0027493576006B90B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFBFE27493576006B90B4 /* LaunchScreen.storyboard */; };
 		CE1AFC0B27493576006B90B4 /* CryptoTelemediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC0A27493576006B90B4 /* CryptoTelemediTests.swift */; };
 		CE1AFC1527493576006B90B4 /* CryptoTelemediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC1427493576006B90B4 /* CryptoTelemediUITests.swift */; };
 		CE1AFC1727493576006B90B4 /* CryptoTelemediUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC1627493576006B90B4 /* CryptoTelemediUITestsLaunchTests.swift */; };
+		CE1AFC3227494D5A006B90B4 /* CurrencyListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC3127494D5A006B90B4 /* CurrencyListingViewModel.swift */; };
+		CE67B7B7274BEC9900A9958C /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67B7B5274BEC9900A9958C /* CurrencyTableViewCell.swift */; };
+		CE67B7B8274BEC9900A9958C /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE67B7B6274BEC9900A9958C /* CurrencyTableViewCell.xib */; };
+		CECD0F8F27495DB400701C81 /* CurrencyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F8E27495DB400701C81 /* CurrencyDetailsViewModel.swift */; };
+		CECD0F9127495DE200701C81 /* CurrencyDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F9027495DE200701C81 /* CurrencyDetailsCoordinator.swift */; };
+		CECD0F9327495DEE00701C81 /* CurrencyListingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F9227495DEE00701C81 /* CurrencyListingCoordinator.swift */; };
+		CECE01CE274D789400E50F81 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE01CD274D789400E50F81 /* CustomErrors.swift */; };
+		CECE01D0274D79E400E50F81 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE01CF274D79E400E50F81 /* AlertHelper.swift */; };
+		CECF992C274A895600244E56 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF992B274A895600244E56 /* AppCoordinator.swift */; };
+		CECF992F274ACDB000244E56 /* CurrencyListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF992D274ACDB000244E56 /* CurrencyListingViewController.swift */; };
+		CECF9930274ACDB000244E56 /* CurrencyListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF992E274ACDB000244E56 /* CurrencyListingViewController.xib */; };
+		CED6BFB1274C199A00EF6CDC /* CurrencyListingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFB0274C199A00EF6CDC /* CurrencyListingManager.swift */; };
+		CED6BFB6274C1DEC00EF6CDC /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFB5274C1DEC00EF6CDC /* DataRequest.swift */; };
+		CED6BFB8274C1F4C00EF6CDC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFB7274C1F4C00EF6CDC /* NetworkService.swift */; };
+		CED6BFBB274CDF2600EF6CDC /* CurrencyListingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFBA274CDF2600EF6CDC /* CurrencyListingRequest.swift */; };
+		CED6BFBE274CFA3300EF6CDC /* UIViewController+ShowAndHideSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFBD274CFA3300EF6CDC /* UIViewController+ShowAndHideSpinner.swift */; };
+		CED6BFC0274CFAE300EF6CDC /* LoadingStateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFBF274CFAE300EF6CDC /* LoadingStateHelper.swift */; };
+		CED6BFC3274D192E00EF6CDC /* BasicNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFC2274D192E00EF6CDC /* BasicNetworkData.swift */; };
+		CED6BFC5274D292200EF6CDC /* CryptocurrencyListingsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFC4274D292200EF6CDC /* CryptocurrencyListingsResponse.swift */; };
+		CED6BFC7274D293A00EF6CDC /* CurrencyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFC6274D293A00EF6CDC /* CurrencyResponse.swift */; };
+		CED6BFC9274D299900EF6CDC /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6BFC8274D299900EF6CDC /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +57,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE15C426274B800D001BEC42 /* CurrencyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewController.swift; sourceTree = "<group>"; };
+		CE15C427274B800D001BEC42 /* CurrencyDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyDetailsViewController.xib; sourceTree = "<group>"; };
 		CE1AFBF027493575006B90B4 /* CryptoTelemedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTelemedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFBF327493575006B90B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1AFBF527493575006B90B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE1AFBF727493575006B90B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE1AFBFA27493575006B90B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE1AFBFC27493576006B90B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1AFBFF27493576006B90B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1AFC0127493576006B90B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +70,27 @@
 		CE1AFC1027493576006B90B4 /* CryptoTelemediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTelemediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFC1427493576006B90B4 /* CryptoTelemediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTelemediUITests.swift; sourceTree = "<group>"; };
 		CE1AFC1627493576006B90B4 /* CryptoTelemediUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTelemediUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE1AFC3127494D5A006B90B4 /* CurrencyListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingViewModel.swift; sourceTree = "<group>"; };
+		CE67B7B5274BEC9900A9958C /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		CE67B7B6274BEC9900A9958C /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		CECD0F8E27495DB400701C81 /* CurrencyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewModel.swift; sourceTree = "<group>"; };
+		CECD0F9027495DE200701C81 /* CurrencyDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsCoordinator.swift; sourceTree = "<group>"; };
+		CECD0F9227495DEE00701C81 /* CurrencyListingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingCoordinator.swift; sourceTree = "<group>"; };
+		CECE01CD274D789400E50F81 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		CECE01CF274D79E400E50F81 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		CECF992B274A895600244E56 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CECF992D274ACDB000244E56 /* CurrencyListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingViewController.swift; sourceTree = "<group>"; };
+		CECF992E274ACDB000244E56 /* CurrencyListingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyListingViewController.xib; sourceTree = "<group>"; };
+		CED6BFB0274C199A00EF6CDC /* CurrencyListingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingManager.swift; sourceTree = "<group>"; };
+		CED6BFB5274C1DEC00EF6CDC /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		CED6BFB7274C1F4C00EF6CDC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CED6BFBA274CDF2600EF6CDC /* CurrencyListingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingRequest.swift; sourceTree = "<group>"; };
+		CED6BFBD274CFA3300EF6CDC /* UIViewController+ShowAndHideSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAndHideSpinner.swift"; sourceTree = "<group>"; };
+		CED6BFBF274CFAE300EF6CDC /* LoadingStateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingStateHelper.swift; sourceTree = "<group>"; };
+		CED6BFC2274D192E00EF6CDC /* BasicNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNetworkData.swift; sourceTree = "<group>"; };
+		CED6BFC4274D292200EF6CDC /* CryptocurrencyListingsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyListingsResponse.swift; sourceTree = "<group>"; };
+		CED6BFC6274D293A00EF6CDC /* CurrencyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyResponse.swift; sourceTree = "<group>"; };
+		CED6BFC8274D299900EF6CDC /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +141,13 @@
 		CE1AFBF227493575006B90B4 /* CryptoTelemedi */ = {
 			isa = PBXGroup;
 			children = (
+				CED6BFC1274CFD6B00EF6CDC /* Helpers */,
+				CE1AFC2E27494943006B90B4 /* Model */,
+				CE1AFC242749478E006B90B4 /* Scenes */,
+				CE1AFC232749477D006B90B4 /* Networking */,
 				CE1AFBF327493575006B90B4 /* AppDelegate.swift */,
+				CECF992B274A895600244E56 /* AppCoordinator.swift */,
 				CE1AFBF527493575006B90B4 /* SceneDelegate.swift */,
-				CE1AFBF727493575006B90B4 /* ViewController.swift */,
-				CE1AFBF927493575006B90B4 /* Main.storyboard */,
 				CE1AFBFC27493576006B90B4 /* Assets.xcassets */,
 				CE1AFBFE27493576006B90B4 /* LaunchScreen.storyboard */,
 				CE1AFC0127493576006B90B4 /* Info.plist */,
@@ -125,6 +170,200 @@
 				CE1AFC1627493576006B90B4 /* CryptoTelemediUITestsLaunchTests.swift */,
 			);
 			path = CryptoTelemediUITests;
+			sourceTree = "<group>";
+		};
+		CE1AFC232749477D006B90B4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFCA274D42EC00EF6CDC /* DataRequests */,
+				CED6BFB2274C1DCF00EF6CDC /* Basics */,
+				CE1AFC3627494DCC006B90B4 /* Managers */,
+				CE1AFC3527494DC2006B90B4 /* Services */,
+				CE1AFC2F2749495F006B90B4 /* NetworkingObjects */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CE1AFC242749478E006B90B4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFC2727494848006B90B4 /* Currency Details */,
+				CE1AFC252749483B006B90B4 /* Currency Listing */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CE1AFC252749483B006B90B4 /* Currency Listing */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFC3327494D5F006B90B4 /* Coordinator */,
+				CE1AFC2D274948B4006B90B4 /* ViewModel */,
+				CE1AFC2C274948AF006B90B4 /* View */,
+			);
+			path = "Currency Listing";
+			sourceTree = "<group>";
+		};
+		CE1AFC2727494848006B90B4 /* Currency Details */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFC3427494D88006B90B4 /* Coordinator */,
+				CE1AFC2B274948A9006B90B4 /* ViewModel */,
+				CE1AFC2A274948A5006B90B4 /* View */,
+			);
+			path = "Currency Details";
+			sourceTree = "<group>";
+		};
+		CE1AFC2A274948A5006B90B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE15C426274B800D001BEC42 /* CurrencyDetailsViewController.swift */,
+				CE15C427274B800D001BEC42 /* CurrencyDetailsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1AFC2B274948A9006B90B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CECD0F8E27495DB400701C81 /* CurrencyDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE1AFC2C274948AF006B90B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFC3027494D35006B90B4 /* Cells */,
+				CECF992D274ACDB000244E56 /* CurrencyListingViewController.swift */,
+				CECF992E274ACDB000244E56 /* CurrencyListingViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1AFC2D274948B4006B90B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFC3127494D5A006B90B4 /* CurrencyListingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE1AFC2E27494943006B90B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFC8274D299900EF6CDC /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE1AFC2F2749495F006B90B4 /* NetworkingObjects */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFC3727494DF6006B90B4 /* Models */,
+			);
+			path = NetworkingObjects;
+			sourceTree = "<group>";
+		};
+		CE1AFC3027494D35006B90B4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE67B7B5274BEC9900A9958C /* CurrencyTableViewCell.swift */,
+				CE67B7B6274BEC9900A9958C /* CurrencyTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE1AFC3327494D5F006B90B4 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CECD0F9227495DEE00701C81 /* CurrencyListingCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CE1AFC3427494D88006B90B4 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CECD0F9027495DE200701C81 /* CurrencyDetailsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CE1AFC3527494DC2006B90B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFB7274C1F4C00EF6CDC /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE1AFC3627494DCC006B90B4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFB0274C199A00EF6CDC /* CurrencyListingManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CE1AFC3727494DF6006B90B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFC3927494E18006B90B4 /* Responses */,
+				CE1AFC3827494E0F006B90B4 /* Parameters */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE1AFC3827494E0F006B90B4 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		CE1AFC3927494E18006B90B4 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFC4274D292200EF6CDC /* CryptocurrencyListingsResponse.swift */,
+				CED6BFC6274D293A00EF6CDC /* CurrencyResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		CED6BFB2274C1DCF00EF6CDC /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFC2274D192E00EF6CDC /* BasicNetworkData.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		CED6BFBC274CFA2800EF6CDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFBD274CFA3300EF6CDC /* UIViewController+ShowAndHideSpinner.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CED6BFC1274CFD6B00EF6CDC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CECE01CF274D79E400E50F81 /* AlertHelper.swift */,
+				CED6BFBF274CFAE300EF6CDC /* LoadingStateHelper.swift */,
+				CECE01CD274D789400E50F81 /* CustomErrors.swift */,
+				CED6BFBC274CFA2800EF6CDC /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CED6BFCA274D42EC00EF6CDC /* DataRequests */ = {
+			isa = PBXGroup;
+			children = (
+				CED6BFB5274C1DEC00EF6CDC /* DataRequest.swift */,
+				CED6BFBA274CDF2600EF6CDC /* CurrencyListingRequest.swift */,
+			);
+			path = DataRequests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +470,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE15C429274B800D001BEC42 /* CurrencyDetailsViewController.xib in Resources */,
+				CE67B7B8274BEC9900A9958C /* CurrencyTableViewCell.xib in Resources */,
 				CE1AFC0027493576006B90B4 /* LaunchScreen.storyboard in Resources */,
+				CECF9930274ACDB000244E56 /* CurrencyListingViewController.xib in Resources */,
 				CE1AFBFD27493576006B90B4 /* Assets.xcassets in Resources */,
-				CE1AFBFB27493575006B90B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +499,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1AFBF827493575006B90B4 /* ViewController.swift in Sources */,
+				CECF992C274A895600244E56 /* AppCoordinator.swift in Sources */,
+				CECD0F9327495DEE00701C81 /* CurrencyListingCoordinator.swift in Sources */,
+				CED6BFC0274CFAE300EF6CDC /* LoadingStateHelper.swift in Sources */,
 				CE1AFBF427493575006B90B4 /* AppDelegate.swift in Sources */,
+				CED6BFC5274D292200EF6CDC /* CryptocurrencyListingsResponse.swift in Sources */,
+				CED6BFB1274C199A00EF6CDC /* CurrencyListingManager.swift in Sources */,
+				CED6BFC7274D293A00EF6CDC /* CurrencyResponse.swift in Sources */,
+				CECE01CE274D789400E50F81 /* CustomErrors.swift in Sources */,
+				CECD0F8F27495DB400701C81 /* CurrencyDetailsViewModel.swift in Sources */,
+				CED6BFBB274CDF2600EF6CDC /* CurrencyListingRequest.swift in Sources */,
+				CED6BFB6274C1DEC00EF6CDC /* DataRequest.swift in Sources */,
+				CE1AFC3227494D5A006B90B4 /* CurrencyListingViewModel.swift in Sources */,
+				CECE01D0274D79E400E50F81 /* AlertHelper.swift in Sources */,
 				CE1AFBF627493575006B90B4 /* SceneDelegate.swift in Sources */,
+				CECF992F274ACDB000244E56 /* CurrencyListingViewController.swift in Sources */,
+				CE15C428274B800D001BEC42 /* CurrencyDetailsViewController.swift in Sources */,
+				CE67B7B7274BEC9900A9958C /* CurrencyTableViewCell.swift in Sources */,
+				CED6BFB8274C1F4C00EF6CDC /* NetworkService.swift in Sources */,
+				CED6BFC9274D299900EF6CDC /* Currency.swift in Sources */,
+				CECD0F9127495DE200701C81 /* CurrencyDetailsCoordinator.swift in Sources */,
+				CED6BFBE274CFA3300EF6CDC /* UIViewController+ShowAndHideSpinner.swift in Sources */,
+				CED6BFC3274D192E00EF6CDC /* BasicNetworkData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +557,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE1AFBF927493575006B90B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE1AFBFA27493575006B90B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE1AFBFE27493576006B90B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,11 +691,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59LC6PAR59;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoTelemedi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,11 +719,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59LC6PAR59;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoTelemedi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

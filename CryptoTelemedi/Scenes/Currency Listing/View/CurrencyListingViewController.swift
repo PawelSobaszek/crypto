@@ -37,7 +37,7 @@ final class CurrencyListingViewController: LoadingStateHelper {
     }
     
     private func setupTableView() {
-        tableView.register(UINib(nibName: "CurrencyTableViewCell", bundle: nil), forCellReuseIdentifier: CurrencyTableViewCell.identifier)
+        tableView.register(Nibs.currencyTableViewCell(), forCellReuseIdentifier: CurrencyTableViewCell.identifier)
         
         tableView.delegate = self
         tableView.dataSource = self

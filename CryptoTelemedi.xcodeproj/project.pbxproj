@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BD9D1D08DD9CF3CDC723BED /* Pods_CryptoTelemedi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED4F5B592BFC0F9AD51595C /* Pods_CryptoTelemedi.framework */; };
+		6E877D5728BDEAA8FEB36C72 /* Pods_CryptoTelemediTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BAE1CF1421DE80D9B3B722 /* Pods_CryptoTelemediTests.framework */; };
+		7F4383E4E77214C298273065 /* Pods_CryptoTelemedi_CryptoTelemediUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AC64947C3A8409FAFA73B8 /* Pods_CryptoTelemedi_CryptoTelemediUITests.framework */; };
 		CE15C428274B800D001BEC42 /* CurrencyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C426274B800D001BEC42 /* CurrencyDetailsViewController.swift */; };
 		CE15C429274B800D001BEC42 /* CurrencyDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE15C427274B800D001BEC42 /* CurrencyDetailsViewController.xib */; };
 		CE1AFBF427493575006B90B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFBF327493575006B90B4 /* AppDelegate.swift */; };
@@ -19,6 +22,9 @@
 		CE1AFC3227494D5A006B90B4 /* CurrencyListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC3127494D5A006B90B4 /* CurrencyListingViewModel.swift */; };
 		CE67B7B7274BEC9900A9958C /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67B7B5274BEC9900A9958C /* CurrencyTableViewCell.swift */; };
 		CE67B7B8274BEC9900A9958C /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE67B7B6274BEC9900A9958C /* CurrencyTableViewCell.xib */; };
+		CE6FFB9C274F8837004178D5 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFB9B274F8837004178D5 /* Typealiases.swift */; };
+		CE6FFBA1274F8C95004178D5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFBA0274F8C95004178D5 /* R.generated.swift */; };
+		CE6FFBA4274F8EAB004178D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6FFBA6274F8EAB004178D5 /* Localizable.strings */; };
 		CECD0F8F27495DB400701C81 /* CurrencyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F8E27495DB400701C81 /* CurrencyDetailsViewModel.swift */; };
 		CECD0F9127495DE200701C81 /* CurrencyDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F9027495DE200701C81 /* CurrencyDetailsCoordinator.swift */; };
 		CECD0F9327495DEE00701C81 /* CurrencyListingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F9227495DEE00701C81 /* CurrencyListingCoordinator.swift */; };
@@ -57,6 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35908B29130BD2D0DA252B0F /* Pods-CryptoTelemediTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTelemediTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoTelemediTests/Pods-CryptoTelemediTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9434CEA5F551F90B5D1A12 /* Pods-CryptoTelemedi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTelemedi.debug.xcconfig"; path = "Target Support Files/Pods-CryptoTelemedi/Pods-CryptoTelemedi.debug.xcconfig"; sourceTree = "<group>"; };
+		54BAE1CF1421DE80D9B3B722 /* Pods_CryptoTelemediTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTelemediTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AC64947C3A8409FAFA73B8 /* Pods_CryptoTelemedi_CryptoTelemediUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTelemedi_CryptoTelemediUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED4F5B592BFC0F9AD51595C /* Pods_CryptoTelemedi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTelemedi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C519F21422A48CEA0768CA7 /* Pods-CryptoTelemedi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTelemedi.release.xcconfig"; path = "Target Support Files/Pods-CryptoTelemedi/Pods-CryptoTelemedi.release.xcconfig"; sourceTree = "<group>"; };
+		CDC8B8613BEA505468225020 /* Pods-CryptoTelemedi-CryptoTelemediUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTelemedi-CryptoTelemediUITests.release.xcconfig"; path = "Target Support Files/Pods-CryptoTelemedi-CryptoTelemediUITests/Pods-CryptoTelemedi-CryptoTelemediUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CE15C426274B800D001BEC42 /* CurrencyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewController.swift; sourceTree = "<group>"; };
 		CE15C427274B800D001BEC42 /* CurrencyDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyDetailsViewController.xib; sourceTree = "<group>"; };
 		CE1AFBF027493575006B90B4 /* CryptoTelemedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTelemedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +86,9 @@
 		CE1AFC3127494D5A006B90B4 /* CurrencyListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingViewModel.swift; sourceTree = "<group>"; };
 		CE67B7B5274BEC9900A9958C /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		CE67B7B6274BEC9900A9958C /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		CE6FFB9B274F8837004178D5 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		CE6FFBA0274F8C95004178D5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		CE6FFBA5274F8EAB004178D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CECD0F8E27495DB400701C81 /* CurrencyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewModel.swift; sourceTree = "<group>"; };
 		CECD0F9027495DE200701C81 /* CurrencyDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsCoordinator.swift; sourceTree = "<group>"; };
 		CECD0F9227495DEE00701C81 /* CurrencyListingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingCoordinator.swift; sourceTree = "<group>"; };
@@ -91,6 +107,8 @@
 		CED6BFC4274D292200EF6CDC /* CryptocurrencyListingsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyListingsResponse.swift; sourceTree = "<group>"; };
 		CED6BFC6274D293A00EF6CDC /* CurrencyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyResponse.swift; sourceTree = "<group>"; };
 		CED6BFC8274D299900EF6CDC /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		DA257757332B5072304A8D65 /* Pods-CryptoTelemedi-CryptoTelemediUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTelemedi-CryptoTelemediUITests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoTelemedi-CryptoTelemediUITests/Pods-CryptoTelemedi-CryptoTelemediUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB58452197F8503106A613FA /* Pods-CryptoTelemediTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTelemediTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoTelemediTests/Pods-CryptoTelemediTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD9D1D08DD9CF3CDC723BED /* Pods_CryptoTelemedi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E877D5728BDEAA8FEB36C72 /* Pods_CryptoTelemediTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,12 +132,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4383E4E77214C298273065 /* Pods_CryptoTelemedi_CryptoTelemediUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38B8D45FF04D4EB234DE46E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E9434CEA5F551F90B5D1A12 /* Pods-CryptoTelemedi.debug.xcconfig */,
+				7C519F21422A48CEA0768CA7 /* Pods-CryptoTelemedi.release.xcconfig */,
+				DA257757332B5072304A8D65 /* Pods-CryptoTelemedi-CryptoTelemediUITests.debug.xcconfig */,
+				CDC8B8613BEA505468225020 /* Pods-CryptoTelemedi-CryptoTelemediUITests.release.xcconfig */,
+				35908B29130BD2D0DA252B0F /* Pods-CryptoTelemediTests.debug.xcconfig */,
+				DB58452197F8503106A613FA /* Pods-CryptoTelemediTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84E64ABD0FBCC2CAD202B233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ED4F5B592BFC0F9AD51595C /* Pods_CryptoTelemedi.framework */,
+				62AC64947C3A8409FAFA73B8 /* Pods_CryptoTelemedi_CryptoTelemediUITests.framework */,
+				54BAE1CF1421DE80D9B3B722 /* Pods_CryptoTelemediTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE1AFBE727493575006B90B4 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +169,8 @@
 				CE1AFC0927493576006B90B4 /* CryptoTelemediTests */,
 				CE1AFC1327493576006B90B4 /* CryptoTelemediUITests */,
 				CE1AFBF127493575006B90B4 /* Products */,
+				38B8D45FF04D4EB234DE46E2 /* Pods */,
+				84E64ABD0FBCC2CAD202B233 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +187,7 @@
 		CE1AFBF227493575006B90B4 /* CryptoTelemedi */ = {
 			isa = PBXGroup;
 			children = (
+				CE6FFB9F274F8C95004178D5 /* Resources */,
 				CED6BFC1274CFD6B00EF6CDC /* Helpers */,
 				CE1AFC2E27494943006B90B4 /* Model */,
 				CE1AFC242749478E006B90B4 /* Scenes */,
@@ -151,6 +198,7 @@
 				CE1AFBFC27493576006B90B4 /* Assets.xcassets */,
 				CE1AFBFE27493576006B90B4 /* LaunchScreen.storyboard */,
 				CE1AFC0127493576006B90B4 /* Info.plist */,
+				CE6FFBA6274F8EAB004178D5 /* Localizable.strings */,
 			);
 			path = CryptoTelemedi;
 			sourceTree = "<group>";
@@ -330,6 +378,14 @@
 			path = Responses;
 			sourceTree = "<group>";
 		};
+		CE6FFB9F274F8C95004178D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6FFBA0274F8C95004178D5 /* R.generated.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CED6BFB2274C1DCF00EF6CDC /* Basics */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +409,7 @@
 				CED6BFBF274CFAE300EF6CDC /* LoadingStateHelper.swift */,
 				CECE01CD274D789400E50F81 /* CustomErrors.swift */,
 				CED6BFBC274CFA2800EF6CDC /* Extensions */,
+				CE6FFB9B274F8837004178D5 /* Typealiases.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -373,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE1AFC1A27493576006B90B4 /* Build configuration list for PBXNativeTarget "CryptoTelemedi" */;
 			buildPhases = (
+				1099A1292983BAFE39E43289 /* [CP] Check Pods Manifest.lock */,
+				CE6FFB9E274F897C004178D5 /* R.swift */,
 				CE1AFBEC27493575006B90B4 /* Sources */,
 				CE1AFBED27493575006B90B4 /* Frameworks */,
 				CE1AFBEE27493575006B90B4 /* Resources */,
+				262D251F78D542BF77EEFFED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -390,6 +450,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE1AFC1D27493576006B90B4 /* Build configuration list for PBXNativeTarget "CryptoTelemediTests" */;
 			buildPhases = (
+				A0D6A1DA9AB32793FF834EC3 /* [CP] Check Pods Manifest.lock */,
 				CE1AFC0227493576006B90B4 /* Sources */,
 				CE1AFC0327493576006B90B4 /* Frameworks */,
 				CE1AFC0427493576006B90B4 /* Resources */,
@@ -408,9 +469,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE1AFC2027493576006B90B4 /* Build configuration list for PBXNativeTarget "CryptoTelemediUITests" */;
 			buildPhases = (
+				E2027D4B78C16DEB9172A9D6 /* [CP] Check Pods Manifest.lock */,
 				CE1AFC0C27493576006B90B4 /* Sources */,
 				CE1AFC0D27493576006B90B4 /* Frameworks */,
 				CE1AFC0E27493576006B90B4 /* Resources */,
+				529C3494BA92F6E715EC7F3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -471,6 +534,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE15C429274B800D001BEC42 /* CurrencyDetailsViewController.xib in Resources */,
+				CE6FFBA4274F8EAB004178D5 /* Localizable.strings in Resources */,
 				CE67B7B8274BEC9900A9958C /* CurrencyTableViewCell.xib in Resources */,
 				CE1AFC0027493576006B90B4 /* LaunchScreen.storyboard in Resources */,
 				CECF9930274ACDB000244E56 /* CurrencyListingViewController.xib in Resources */,
@@ -494,6 +558,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1099A1292983BAFE39E43289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoTelemedi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		262D251F78D542BF77EEFFED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoTelemedi/Pods-CryptoTelemedi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoTelemedi/Pods-CryptoTelemedi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoTelemedi/Pods-CryptoTelemedi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529C3494BA92F6E715EC7F3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoTelemedi-CryptoTelemediUITests/Pods-CryptoTelemedi-CryptoTelemediUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoTelemedi-CryptoTelemediUITests/Pods-CryptoTelemedi-CryptoTelemediUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoTelemedi-CryptoTelemediUITests/Pods-CryptoTelemedi-CryptoTelemediUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D6A1DA9AB32793FF834EC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoTelemediTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6FFB9E274F897C004178D5 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/CryptoTelemedi/Resources/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/CryptoTelemedi/Resources/R.generated.swift\"\n";
+		};
+		E2027D4B78C16DEB9172A9D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoTelemedi-CryptoTelemediUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE1AFBEC27493575006B90B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -502,6 +689,7 @@
 				CECF992C274A895600244E56 /* AppCoordinator.swift in Sources */,
 				CECD0F9327495DEE00701C81 /* CurrencyListingCoordinator.swift in Sources */,
 				CED6BFC0274CFAE300EF6CDC /* LoadingStateHelper.swift in Sources */,
+				CE6FFB9C274F8837004178D5 /* Typealiases.swift in Sources */,
 				CE1AFBF427493575006B90B4 /* AppDelegate.swift in Sources */,
 				CED6BFC5274D292200EF6CDC /* CryptocurrencyListingsResponse.swift in Sources */,
 				CED6BFB1274C199A00EF6CDC /* CurrencyListingManager.swift in Sources */,
@@ -509,6 +697,7 @@
 				CECE01CE274D789400E50F81 /* CustomErrors.swift in Sources */,
 				CECD0F8F27495DB400701C81 /* CurrencyDetailsViewModel.swift in Sources */,
 				CED6BFBB274CDF2600EF6CDC /* CurrencyListingRequest.swift in Sources */,
+				CE6FFBA1274F8C95004178D5 /* R.generated.swift in Sources */,
 				CED6BFB6274C1DEC00EF6CDC /* DataRequest.swift in Sources */,
 				CE1AFC3227494D5A006B90B4 /* CurrencyListingViewModel.swift in Sources */,
 				CECE01D0274D79E400E50F81 /* AlertHelper.swift in Sources */,
@@ -563,6 +752,14 @@
 				CE1AFBFF27493576006B90B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6FFBA6274F8EAB004178D5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6FFBA5274F8EAB004178D5 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -686,6 +883,7 @@
 		};
 		CE1AFC1B27493576006B90B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9434CEA5F551F90B5D1A12 /* Pods-CryptoTelemedi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -714,6 +912,7 @@
 		};
 		CE1AFC1C27493576006B90B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C519F21422A48CEA0768CA7 /* Pods-CryptoTelemedi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -742,6 +941,7 @@
 		};
 		CE1AFC1E27493576006B90B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35908B29130BD2D0DA252B0F /* Pods-CryptoTelemediTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -766,6 +966,7 @@
 		};
 		CE1AFC1F27493576006B90B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB58452197F8503106A613FA /* Pods-CryptoTelemediTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -790,6 +991,7 @@
 		};
 		CE1AFC2127493576006B90B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA257757332B5072304A8D65 /* Pods-CryptoTelemedi-CryptoTelemediUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -812,6 +1014,7 @@
 		};
 		CE1AFC2227493576006B90B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC8B8613BEA505468225020 /* Pods-CryptoTelemedi-CryptoTelemediUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

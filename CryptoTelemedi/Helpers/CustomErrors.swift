@@ -16,13 +16,13 @@ enum CustomError {
     var description: NSError {
         switch self {
         case .invalidEndpoint:
-            return NSError(domain: "Invalid endpoint", code: 404, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
+            return NSError(domain: Strings.errorCustomErrorInvalidEndpoint(), code: 404, userInfo: [NSLocalizedDescriptionKey : Strings.errorCustomErrorGeneralUserInfo()])
         case .encodingParamFailure:
-            return NSError(domain: "Encoding param failure", code: 600, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
+            return NSError(domain: Strings.errorCustomErrorEncodingParamFailure(), code: 600, userInfo: [NSLocalizedDescriptionKey : Strings.errorCustomErrorGeneralUserInfo()])
         case .badStatusCode:
-            return NSError(domain: "Bad response status code", code: 700, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
+            return NSError(domain: Strings.errorCustomErrorBadStatusCode(), code: 700, userInfo: [NSLocalizedDescriptionKey : Strings.errorCustomErrorGeneralUserInfo()])
         case .emptyData:
-            return NSError(domain: "Empty data", code: 800, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
+            return NSError(domain: Strings.errorCustomErrorEmptyData(), code: 800, userInfo: [NSLocalizedDescriptionKey : Strings.errorCustomErrorGeneralUserInfo()])
         }
     }
 }

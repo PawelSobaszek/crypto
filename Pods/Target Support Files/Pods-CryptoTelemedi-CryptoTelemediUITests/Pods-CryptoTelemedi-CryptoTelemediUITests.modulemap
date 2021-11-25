@@ -1,0 +1,6 @@
+framework module Pods_CryptoTelemedi_CryptoTelemediUITests {
+  umbrella header "Pods-CryptoTelemedi-CryptoTelemediUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

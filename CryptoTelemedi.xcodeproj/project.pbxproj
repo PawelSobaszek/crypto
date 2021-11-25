@@ -435,10 +435,10 @@
 		CED6BFC1274CFD6B00EF6CDC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				CED6BFBC274CFA2800EF6CDC /* Extensions */,
 				CECE01CF274D79E400E50F81 /* AlertHelper.swift */,
 				CED6BFBF274CFAE300EF6CDC /* LoadingStateHelper.swift */,
 				CECE01CD274D789400E50F81 /* CustomErrors.swift */,
-				CED6BFBC274CFA2800EF6CDC /* Extensions */,
 				CE6FFB9B274F8837004178D5 /* Typealiases.swift */,
 			);
 			path = Helpers;

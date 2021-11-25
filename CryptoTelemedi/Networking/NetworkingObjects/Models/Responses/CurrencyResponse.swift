@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CurrencyResponse: Codable {
+struct CurrencyResponse: Decodable {
     var id: Int
     var name: String
     var symbol: String

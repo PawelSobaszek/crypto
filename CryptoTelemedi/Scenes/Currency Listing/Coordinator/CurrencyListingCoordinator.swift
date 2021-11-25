@@ -18,7 +18,7 @@ final class CurrencyListingCoordinator: Coordinator, CurrencyListingCoordinatorD
         let viewModel = CurrencyDetailsViewModel(id: id)
         viewController.viewModel = viewModel
         
-        let coordinator = CurrencyListingCoordinator(viewController: viewController, supercoordinator: self)
+        let coordinator = CurrencyDetailsCoordinator(viewController: viewController, supercoordinator: self)
         
         start(coordinator: coordinator, presentationStyle: .push, animated: true)
     }

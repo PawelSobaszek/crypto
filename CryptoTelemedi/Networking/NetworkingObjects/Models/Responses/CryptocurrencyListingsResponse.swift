@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct CryptocurrencyListingsResponse: Codable {
+struct CryptocurrencyListingsResponse: Decodable {
     var data: [CurrencyResponse]
 }

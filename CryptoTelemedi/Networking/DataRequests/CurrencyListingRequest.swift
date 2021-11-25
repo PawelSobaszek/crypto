@@ -18,10 +18,6 @@ enum CurrencyListingRequest: DataRequest {
         return BasicNetworkData.getRequestURL(path: endpointCategory.rawValue + "listings/latest")
     }
     
-    var headers: [String : String] {
-        ["X-CMC_PRO_API_KEY": BasicNetworkData.apiKey]
-    }
-    
     var method: HTTPMethod {
         .get
     }

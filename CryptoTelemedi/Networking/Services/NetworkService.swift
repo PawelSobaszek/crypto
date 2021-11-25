@@ -14,9 +14,9 @@ protocol NetworkServiceProtocol {
 final class NetworkService: NetworkServiceProtocol {
     func request<T: Decodable>(_ request: DataRequest, expecting: T.Type, completion: @escaping (Result<T, Error>) -> Void) {
         guard var urlComponent = URLComponents(string: request.url) else {
-            let error = CustomError.invalidEndpoint.description
+            let error = CustomError.invalidEndpoint
             
-            return completion(.failure(error))
+            return completion(.failure(error.description))
         }
         
         var queryItems: [URLQueryItem] = []
@@ -30,9 +30,9 @@ final class NetworkService: NetworkServiceProtocol {
         urlComponent.queryItems = queryItems
         
         guard let url = urlComponent.url else {
-            let error = CustomError.invalidEndpoint.description
+            let error = CustomError.invalidEndpoint
             
-            return completion(.failure(error))
+            return completion(.failure(error.description))
         }
         
         var urlRequest = URLRequest(url: url)
@@ -45,9 +45,9 @@ final class NetworkService: NetworkServiceProtocol {
                     
                     urlRequest.httpBody = data
                 } catch {
-                    let error = CustomError.encodingParamFailure.description
+                    let error = CustomError.encodingParamFailure
                     
-                    return completion(.failure(error))
+                    return completion(.failure(error.description))
                 }
             }
         }
@@ -60,11 +60,11 @@ final class NetworkService: NetworkServiceProtocol {
             }
             
             guard let response = response as? HTTPURLResponse, 200..<300 ~= response.statusCode else {
-                return completion(.failure(CustomError.invalidEndpoint))
+                return completion(.failure(CustomError.badStatusCode.description))
             }
             
             guard let data = data else {
-                return completion(.failure(CustomError.invalidEndpoint))
+                return completion(.failure(CustomError.emptyData.description))
             }
             
             do {

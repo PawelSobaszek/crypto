@@ -32,7 +32,7 @@ protocol DataRequest {
 
 extension DataRequest {
     var headers: [String : String] {
-        [:]
+        ["X-CMC_PRO_API_KEY": BasicNetworkData.apiKey]
     }
     
     var queryItems: [String : String] {

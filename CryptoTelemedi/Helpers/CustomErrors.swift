@@ -7,16 +7,22 @@
 
 import Foundation
 
-enum CustomError: Error {
+enum CustomError {
     case invalidEndpoint
     case encodingParamFailure
+    case badStatusCode
+    case emptyData
     
     var description: NSError {
         switch self {
         case .invalidEndpoint:
-            return NSError(domain: "Invalid endpoint", code: 404, userInfo: nil)
+            return NSError(domain: "Invalid endpoint", code: 404, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
         case .encodingParamFailure:
-            return NSError(domain: "Encoding param failure", code: 600, userInfo: nil)
+            return NSError(domain: "Encoding param failure", code: 600, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
+        case .badStatusCode:
+            return NSError(domain: "Bad response status code", code: 700, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
+        case .emptyData:
+            return NSError(domain: "Empty data", code: 800, userInfo: [NSLocalizedDescriptionKey : "Przepraszamy, pracujemy nad rozwiązaniem tego błędu"])
         }
     }
 }

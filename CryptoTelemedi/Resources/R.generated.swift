@@ -210,12 +210,16 @@ struct R: Rswift.Validatable {
 
   /// This `R.string` struct is generated, and contains static references to 1 localization tables.
   struct string {
-    /// This `R.string.localizable` struct is generated, and contains static references to 5 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 7 localization keys.
     struct localizable {
       /// en translation: Bad status code
       ///
       /// Locales: en
       static let errorCustomErrorBadStatusCode = Rswift.StringResource(key: "Error.CustomError.badStatusCode", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
+      /// en translation: Currency listing
+      ///
+      /// Locales: en
+      static let currencyListingTitle = Rswift.StringResource(key: "CurrencyListing.title", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
       /// en translation: Empty data
       ///
       /// Locales: en
@@ -224,6 +228,10 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en
       static let errorCustomErrorEncodingParamFailure = Rswift.StringResource(key: "Error.CustomError.encodingParamFailure", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
+      /// en translation: Error
+      ///
+      /// Locales: en
+      static let errorGeneralTitle = Rswift.StringResource(key: "Error.General.title", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
       /// en translation: Invalid endpoint
       ///
       /// Locales: en
@@ -246,6 +254,21 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("Error.CustomError.badStatusCode", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Currency listing
+      ///
+      /// Locales: en
+      static func currencyListingTitle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("CurrencyListing.title", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "CurrencyListing.title"
+        }
+
+        return NSLocalizedString("CurrencyListing.title", bundle: bundle, comment: "")
       }
 
       /// en translation: Empty data
@@ -276,6 +299,21 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("Error.CustomError.encodingParamFailure", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Error
+      ///
+      /// Locales: en
+      static func errorGeneralTitle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Error.General.title", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Error.General.title"
+        }
+
+        return NSLocalizedString("Error.General.title", bundle: bundle, comment: "")
       }
 
       /// en translation: Invalid endpoint

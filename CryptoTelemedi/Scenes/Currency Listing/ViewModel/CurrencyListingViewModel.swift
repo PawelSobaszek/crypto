@@ -38,7 +38,7 @@ final class CurrencyListingViewModel: CurrencyListingViewModelProtocol {
                 self.currencyFullList = response
                 self.delegate?.reloadTable()
             case .failure(let error):
-                self.delegate?.tryAgainAlert(title: "Error", message: error.localizedDescription, tryAgainOption: {
+                self.delegate?.tryAgainAlert(title: Strings.errorGeneralTitle(), message: error.localizedDescription, tryAgainOption: {
                     self.fetchCurrency()
                 })
             }
@@ -50,8 +50,9 @@ final class CurrencyListingViewModel: CurrencyListingViewModelProtocol {
         delegate?.reloadTable()
     }
     
-    func getCurrencyId(indexPath: IndexPath) -> Int{
-        return currency[indexPath.row].id
+    func getCurrencyId(indexPath: IndexPath) -> Int {
+        guard let currency = currency[safe: indexPath.row] else { return 0 }
+        return currency.id
     }
     
     private func filtrCurrencyList(searchText: String) -> [Currency] {

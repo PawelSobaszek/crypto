@@ -16,7 +16,6 @@
 		CE1AFBF627493575006B90B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFBF527493575006B90B4 /* SceneDelegate.swift */; };
 		CE1AFBFD27493576006B90B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFBFC27493576006B90B4 /* Assets.xcassets */; };
 		CE1AFC0027493576006B90B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFBFE27493576006B90B4 /* LaunchScreen.storyboard */; };
-		CE1AFC0B27493576006B90B4 /* CryptoTelemediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC0A27493576006B90B4 /* CryptoTelemediTests.swift */; };
 		CE1AFC1527493576006B90B4 /* CryptoTelemediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC1427493576006B90B4 /* CryptoTelemediUITests.swift */; };
 		CE1AFC1727493576006B90B4 /* CryptoTelemediUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC1627493576006B90B4 /* CryptoTelemediUITestsLaunchTests.swift */; };
 		CE1AFC3227494D5A006B90B4 /* CurrencyListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFC3127494D5A006B90B4 /* CurrencyListingViewModel.swift */; };
@@ -25,6 +24,9 @@
 		CE6FFB9C274F8837004178D5 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFB9B274F8837004178D5 /* Typealiases.swift */; };
 		CE6FFBA1274F8C95004178D5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FFBA0274F8C95004178D5 /* R.generated.swift */; };
 		CE6FFBA4274F8EAB004178D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6FFBA6274F8EAB004178D5 /* Localizable.strings */; };
+		CE92E886274FA82D00450AB9 /* CurrencyListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92E885274FA82D00450AB9 /* CurrencyListingViewModelTests.swift */; };
+		CE92E88B274FAEF400450AB9 /* CurrencyListingManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92E88A274FAEF400450AB9 /* CurrencyListingManagerMock.swift */; };
+		CE92E88D274FB5EA00450AB9 /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92E88C274FB5EA00450AB9 /* Collection+SafeIndex.swift */; };
 		CECD0F8F27495DB400701C81 /* CurrencyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F8E27495DB400701C81 /* CurrencyDetailsViewModel.swift */; };
 		CECD0F9127495DE200701C81 /* CurrencyDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F9027495DE200701C81 /* CurrencyDetailsCoordinator.swift */; };
 		CECD0F9327495DEE00701C81 /* CurrencyListingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F9227495DEE00701C81 /* CurrencyListingCoordinator.swift */; };
@@ -79,7 +81,6 @@
 		CE1AFBFF27493576006B90B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1AFC0127493576006B90B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE1AFC0627493576006B90B4 /* CryptoTelemediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTelemediTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1AFC0A27493576006B90B4 /* CryptoTelemediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTelemediTests.swift; sourceTree = "<group>"; };
 		CE1AFC1027493576006B90B4 /* CryptoTelemediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTelemediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFC1427493576006B90B4 /* CryptoTelemediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTelemediUITests.swift; sourceTree = "<group>"; };
 		CE1AFC1627493576006B90B4 /* CryptoTelemediUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTelemediUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -89,6 +90,9 @@
 		CE6FFB9B274F8837004178D5 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		CE6FFBA0274F8C95004178D5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		CE6FFBA5274F8EAB004178D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE92E885274FA82D00450AB9 /* CurrencyListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingViewModelTests.swift; sourceTree = "<group>"; };
+		CE92E88A274FAEF400450AB9 /* CurrencyListingManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingManagerMock.swift; sourceTree = "<group>"; };
+		CE92E88C274FB5EA00450AB9 /* Collection+SafeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeIndex.swift"; sourceTree = "<group>"; };
 		CECD0F8E27495DB400701C81 /* CurrencyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewModel.swift; sourceTree = "<group>"; };
 		CECD0F9027495DE200701C81 /* CurrencyDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsCoordinator.swift; sourceTree = "<group>"; };
 		CECD0F9227495DEE00701C81 /* CurrencyListingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListingCoordinator.swift; sourceTree = "<group>"; };
@@ -206,7 +210,8 @@
 		CE1AFC0927493576006B90B4 /* CryptoTelemediTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE1AFC0A27493576006B90B4 /* CryptoTelemediTests.swift */,
+				CE92E887274FAED200450AB9 /* Mocks */,
+				CE92E885274FA82D00450AB9 /* CurrencyListingViewModelTests.swift */,
 			);
 			path = CryptoTelemediTests;
 			sourceTree = "<group>";
@@ -386,6 +391,30 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		CE92E887274FAED200450AB9 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CE92E888274FAED900450AB9 /* Networking */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CE92E888274FAED900450AB9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CE92E889274FAEE000450AB9 /* Managers */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CE92E889274FAEE000450AB9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE92E88A274FAEF400450AB9 /* CurrencyListingManagerMock.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		CED6BFB2274C1DCF00EF6CDC /* Basics */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,6 +427,7 @@
 			isa = PBXGroup;
 			children = (
 				CED6BFBD274CFA3300EF6CDC /* UIViewController+ShowAndHideSpinner.swift */,
+				CE92E88C274FB5EA00450AB9 /* Collection+SafeIndex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -695,6 +725,7 @@
 				CED6BFB1274C199A00EF6CDC /* CurrencyListingManager.swift in Sources */,
 				CED6BFC7274D293A00EF6CDC /* CurrencyResponse.swift in Sources */,
 				CECE01CE274D789400E50F81 /* CustomErrors.swift in Sources */,
+				CE92E88D274FB5EA00450AB9 /* Collection+SafeIndex.swift in Sources */,
 				CECD0F8F27495DB400701C81 /* CurrencyDetailsViewModel.swift in Sources */,
 				CED6BFBB274CDF2600EF6CDC /* CurrencyListingRequest.swift in Sources */,
 				CE6FFBA1274F8C95004178D5 /* R.generated.swift in Sources */,
@@ -717,7 +748,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1AFC0B27493576006B90B4 /* CryptoTelemediTests.swift in Sources */,
+				CE92E88B274FAEF400450AB9 /* CurrencyListingManagerMock.swift in Sources */,
+				CE92E886274FA82D00450AB9 /* CurrencyListingViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

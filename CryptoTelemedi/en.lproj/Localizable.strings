@@ -6,9 +6,11 @@
   
 */
 
-
+"Error.General.title" = "Error";
 "Error.CustomError.invalidEndpoint" = "Invalid endpoint";
 "Error.CustomError.encodingParamFailure" = "Encoding param failure";
 "Error.CustomError.badStatusCode" = "Bad status code";
 "Error.CustomError.emptyData" = "Empty data";
 "Error.CustomError.generalUserInfo" = "Sorry, we are working on resolving this error";
+
+"CurrencyListing.title" = "Currency listing";

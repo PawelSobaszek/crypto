@@ -29,7 +29,7 @@ final class CurrencyListingViewController: LoadingStateHelper {
     }
     
     private func setupNaviBar() {
-        title = "Currency listing"
+        title = Strings.currencyListingTitle()
     }
     
     private func setupSearchBar() {

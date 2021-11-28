@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol CurrencyDetailsViewModelProtocol {
+protocol CurrencyDetailsViewModelProtocol: AnyObject {
     func fetchCurrencyDetails()
 }
 

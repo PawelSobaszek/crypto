@@ -7,12 +7,12 @@
 
 import UIKit
 
-protocol CurrencyDetailsViewControllerDelegate {
+protocol CurrencyDetailsViewControllerDelegate: AnyObject {
     func setupView()
 }
 
 final class CurrencyDetailsViewController: UIViewController, CurrencyDetailsViewControllerDelegate {
-    var viewModel: CurrencyDetailsViewModelProtocol?
+    weak var viewModel: CurrencyDetailsViewModelProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()

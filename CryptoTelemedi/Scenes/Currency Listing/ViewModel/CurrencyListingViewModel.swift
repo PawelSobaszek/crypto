@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol CurrencyListingViewModelProtocol {
+protocol CurrencyListingViewModelProtocol: AnyObject {
     var currency: [Currency] { get }
     
     func fetchCurrency()
@@ -19,7 +19,7 @@ final class CurrencyListingViewModel: CurrencyListingViewModelProtocol {
     var currency: [Currency] = []
     var currencyFullList: [Currency] = []
     
-    var delegate: CurrencyListingViewControllerDelegate?
+    weak var delegate: CurrencyListingViewControllerDelegate?
     
     private let manager: CurrencyListingManagerProtocol
     

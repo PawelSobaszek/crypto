@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-protocol CurrencyListingCoordinatorDelegate {
+protocol CurrencyListingCoordinatorDelegate: AnyObject {
     func openCurrencyDetails(id: Int)
 }
 

@@ -12,7 +12,7 @@ protocol CurrencyDetailsViewControllerDelegate: AnyObject {
 }
 
 final class CurrencyDetailsViewController: UIViewController, CurrencyDetailsViewControllerDelegate {
-    weak var viewModel: CurrencyDetailsViewModelProtocol?
+    var viewModel: CurrencyDetailsViewModelProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()

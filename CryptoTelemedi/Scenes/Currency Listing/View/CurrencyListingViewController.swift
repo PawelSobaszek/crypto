@@ -15,8 +15,8 @@ final class CurrencyListingViewController: LoadingStateHelper {
     @IBOutlet weak private var searchBar: UISearchBar!
     @IBOutlet weak private var tableView: UITableView!
     
-    weak var coordinator: CurrencyListingCoordinatorDelegate?
-    weak var viewModel: CurrencyListingViewModelProtocol?
+    var coordinator: CurrencyListingCoordinatorDelegate?
+    var viewModel: CurrencyListingViewModelProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
